@@ -1,0 +1,46 @@
+#profile-container {
+  background: white;
+  width: 400px;
+  border-radius: 15px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-200px);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 0px rgba(204, 204, 204, 1);
+}
+#name {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+#contact {
+  font-size: 12px;
+  padding-top: 0;
+  margin-top: 0;
+  color: rgba(3, 3, 3, 0.527);
+}
+section {
+  padding: 25px;
+  padding-top: 15px;
+}
+#avatar-container {
+  background: #1ecefd;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  border-radius: 100%;
+}
+button {
+  width: 100%;
+  padding: 14px;
+  font-size: 14px;
+  border-radius: 15px;
+  background: #505355;
+  color: white;
+}

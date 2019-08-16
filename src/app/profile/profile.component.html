@@ -1,0 +1,15 @@
+<div id="profile-container">
+  <div id="avatar-container">
+    <img
+      src="../../assets/IMG_0298.jpeg"
+      height="190px"
+      alt="Me in a throne covered in Axes"
+    />
+  </div>
+  <section>
+    <p id="name">{{ user.name }}</p>
+    <p id="contact">{{ user.contact }}</p>
+    <p>{{ user.bio }}</p>
+    <button (click)="editProfile()">Edit</button>
+  </section>
+</div>
